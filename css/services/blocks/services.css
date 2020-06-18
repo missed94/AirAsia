@@ -1,0 +1,74 @@
+.services__container {
+  padding-top: 100px;
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 67px;
+}
+
+.services__offer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__offer:first-child {
+  margin-bottom: 50px;
+}
+
+.services__offer-img-waterfall {
+  background-image: url(./../../../images/content/service/waterfall.jpg);
+  background-repeat: no-repeat;
+  background-size: 104%;
+  background-position: -14px;
+  border-radius: 6px;
+  height: 330px;
+  width: 458px;
+}
+
+.services__offer-img-monkeys {
+  background-image: url(./../../../images/content/service/monkeys.jpg);
+  background-repeat: no-repeat;
+  background-size: 104%;
+  background-position: -9px -2px;
+  border-radius: 6px;
+  height: 330px;
+  width: 458px;
+}
+
+.services__offer-desc {
+  width: 622px;
+}
+
+.services__offer-desc-tittle {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  padding-top: 22px;
+  margin-bottom: 34px;
+}
+
+.services__offer-desc-text {
+  color: #303030;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 33px;
+}
+
+.services__btn.more__btn {
+  display: inline-block;
+  color: #d21d16;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  border: 1px solid rgba(245, 23, 14, 0.4);
+  background-color: #ffffff;
+  border-radius: 26px;
+  padding: 19px 36px 16px 39px;
+}
+
+.services__btn.more__btn:hover {
+  background-color: #f5170e;
+  border: 1px solid #f5170e;
+  color: #ffffff;
+}

@@ -1,0 +1,7 @@
+@import url(./../services/layout/normalize.css);
+@import url(./../services/layout/base.css);
+@import url(./../services/blocks/header.css);
+@import url(./../services/blocks/services.css);
+@import url(./../services/blocks/pagination.css);
+@import url(./../services/blocks/partners.css);
+@import url(./../services/blocks/footer.css);

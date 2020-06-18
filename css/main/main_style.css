@@ -1,0 +1,10 @@
+@import url(./../main/layout/normalize.css);
+@import url(./../main/layout/base.css);
+@import url(./../main/blocks/header.css);
+@import url(./../main/blocks/hero.css);
+@import url(./../main/blocks/product.css);
+@import url(./../main/blocks/stocks.css);
+@import url(./../main/blocks/pagination.css);
+@import url(./../main/blocks/about.css);
+@import url(./../main/blocks/hr.css);
+@import url(./../main/blocks/footer.css);

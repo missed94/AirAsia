@@ -1,0 +1,13 @@
+hr {
+  /*   position: absolute; */
+  height: 1px;
+  background-color: #ffffff;
+  opacity: 0.1;
+  margin: auto;
+
+  /*  margin-top: 17px;
+  margin-bottom: 46px; */
+  border: none;
+  /*  left: 50%;
+  transform: translateX(-50%); */
+}

@@ -1,0 +1,45 @@
+.hero {
+  margin-bottom: 257px;
+}
+
+.hero__container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.hero__wrapper {
+  min-width: 510px;
+}
+
+.hero__title {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 29px;
+  max-width: 510px;
+}
+
+.hero__tagline {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 38px;
+}
+
+.hero__btn.more__btn {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  background-color: #da0100;
+  border-radius: 26px;
+  padding: 19px 39px 19px 39px;
+}
+
+.hero__btn.more__btn:hover {
+  background-color: #f5170e;
+}

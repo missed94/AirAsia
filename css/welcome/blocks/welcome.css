@@ -1,0 +1,95 @@
+.welcome__background_shades{ 
+  position: absolute;
+  z-index: 1;
+  left: -169px;
+  bottom: 52px;
+}
+
+
+
+.welcome__open-logo-container { 
+
+
+    position: relative;
+    padding-top: 117px; 
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    animation: zoom 1s;
+    animation-fill-mode: forwards;
+    
+  }
+  
+@keyframes zoom {
+from {
+transform: scale(.7);
+}
+
+20% {
+  transform: scale(1.15);
+}
+40% {
+  transform: scale(.9);
+}
+60% {
+  transform: scale(1.1);
+}
+80% {
+  transform: scale(.95);
+}
+
+to {
+  opacity: 1;
+  transform: scale(1)
+}
+
+}
+
+
+
+  .welcome__logo {
+    z-index: 10;
+    height: 119px;
+    margin-bottom: 8px;
+  
+  }
+  
+  .welcome__text { 
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1;
+    color: #ffffff;
+    text-align:center;
+    margin-bottom: 60px;
+    z-index: 10;
+    
+  }
+  
+  .welcome__btn-wrapper { 
+  text-align: center;
+  z-index: 10;
+  }
+  
+  
+  
+  .welcome__btn { 
+    z-index: 10;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+    background-color: #f5170e;
+    text-align: center;
+  
+    padding: 19px 57px;
+    border-radius:26px;
+  }
+  
+  
+  
+  .welcome__btn:hover {
+    
+  box-shadow:0 0 50px #f5170e;
+  transition: 0.3s;
+  }

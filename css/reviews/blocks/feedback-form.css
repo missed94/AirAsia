@@ -1,0 +1,153 @@
+.feedback-form {
+  background-color: #f4f5f5;
+}
+
+.feedback-form__container {
+  margin: 0 auto;
+  width: 1140px;
+  margin-bottom: 99px;
+}
+
+.feedback-form__tittle {
+  color: #1a1b1e;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 84px;
+  margin-bottom: 51px;
+}
+
+.feedback-form__form {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form__row {
+  display: flex;
+  /*  justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.feedback-form__input {
+  padding: 24px 29px 18px 29px;
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 6px;
+  color: #1a1b1e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  border: 1px solid transparent;
+}
+
+.feedback-form__input:focus {
+  background: #e7e7e7; 
+  border: 1px solid #fff;
+  
+}
+
+
+.feedback-form__input:last-child {
+  margin-right: 0;
+}
+
+.feedback-form__social-link::placeholder {
+  color: #666666;
+}
+
+.feedback-form__name::placeholder {
+  color: #666666;
+}
+
+.feedback-form__textarea {
+  flex: 1;
+  min-height: 232px;
+  border-radius: 6px;
+  resize: none;
+  margin-bottom:27px;
+  margin-right:0;
+}
+
+.feedback-form__textarea::placeholder {
+  color: #666666;
+}
+
+.feedback-form__categories {
+  display: flex;
+  align-items: start;
+  margin-bottom: 26px;
+}
+
+.feedback-form__categories-question {
+  color: #1a1b1e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  width: 427px;
+  margin-top: 8px;
+  margin-right: 12px;
+}
+
+.feedback-form__categories-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feedback-form__categories-tag {
+  display: inline-block;
+  color: #303030;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 12px 17px 9px 13px;
+  border-radius: 17px;
+  background-color: #e7e7e7;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* .feedback-form__categories-tag:hover {
+  background-color: #b9eae4;
+} */
+
+.feedback-form__controls-checkbox:checked ~ .feedback-form__categories-tag {
+  background: #b9eae4;
+}
+
+.feedback-form__controls-checkbox {
+  display: none;
+}
+
+.feedback-form__buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.feedback-form__btn {
+  padding: 19px 44px 20px 39px;
+  border-radius: 26px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.feedback-form__btn_clear {
+  background-color: #2b2b2b;
+  margin-right: 16px;
+}
+
+.feedback-form__btn_clear:hover {
+  background-color: #8e8e8e;
+}
+
+.feedback-form__btn_send {
+  background-color: #da0100;
+}
+
+.feedback-form__btn_send:hover {
+  background-color: #f5170e;
+}

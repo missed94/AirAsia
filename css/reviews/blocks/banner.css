@@ -1,0 +1,35 @@
+.banner {
+  min-height: 360px;
+  background: url(./../../../images/bg/middleline.jpg) no-repeat;
+  background-size: cover;
+}
+
+.banner__container {
+  background: url(./../../../images/decor/couple.png) right 5% bottom no-repeat;
+  width: 1140px;
+  margin: 0 auto;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* display: flex;
+  align-items: center; */
+}
+
+.banner__content {
+  max-width: 593px;
+}
+
+.banner__tittle {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  width: 100%;
+  white-space: pre;
+}
+
+.banner__inner-image {
+  margin-top: 19px;
+  margin-left: 23px;
+}

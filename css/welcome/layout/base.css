@@ -1,0 +1,18 @@
+.wrapper { 
+    min-width: 1180px;
+    min-height: 100%;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    
+    
+  }
+
+  .wrapper_welcome {
+    justify-content: center;
+    align-items: center;
+    background-color:#000C12;
+    background-image: url(./../../../images/bg/screen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }

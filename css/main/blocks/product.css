@@ -1,0 +1,144 @@
+.product {
+  margin-bottom: 147px;
+}
+
+.product__title {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 54px;
+}
+
+.product__container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__title-text {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.product__offers {
+  max-width: 360px;
+  border-radius: 6px;
+}
+
+.product__country {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.product__country-image {
+  width: 360px;
+  height: 141px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+.product--thai {
+  background: url(./../../../images/content/offers/river.jpg);
+  opacity: 0.5;
+}
+
+.product--bali {
+  background-image: url(./../../../images/content/offers/pool.jpg);
+  opacity: 0.5;
+}
+
+.product--indonesia {
+  background-image: url(./../../../images/content/offers/ocean.jpg);
+  opacity: 0.5;
+}
+
+.product__desc {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #ffffff;
+  padding-top: 26px;
+  padding-left: 21px;
+  padding-right: 44px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product__desc > h4 {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+
+.product__condition {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 23px;
+  margin-left: 5px;
+}
+
+.product__condition-days {
+  width: 122px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__condition-meal {
+  width: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__condition-days,
+.product__condition-meal > p {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.product__country-desc {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 25px;
+}
+
+.product__btn-wrapper {
+  margin-top: auto;
+}
+
+.product__btn {
+  display: inline-block;
+  border-radius: 30px;
+  border: 1px solid rgba(245, 23, 14, 0.4);
+  background-color: #ffffff;
+  padding: 21px 28px 18px 30px;
+  margin-bottom: 33px;
+  color: #d21d16;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.product__btn:hover {
+  background-color: #f5170e;
+  border: 1px solid #f5170e;
+  color: #ffffff;
+}
