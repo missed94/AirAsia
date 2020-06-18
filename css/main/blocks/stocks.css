@@ -23,7 +23,7 @@
 
 .stocks__content-plane {
   width: 555px;
-  background-image: url(./../images/content/news/plain.jpg);
+  background-image: url(./../../../images/content/news/plain.jpg);
   background-position-y: 100%;
   background-position-x: 90%;
   border-radius: 6px;
@@ -31,7 +31,7 @@
 
 .stocks__content-surf {
   width: 555px;
-  background-image: url(./../images/content/news/surfer3.png);
+  background-image: url(./../../../images/content/news/surfer3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
